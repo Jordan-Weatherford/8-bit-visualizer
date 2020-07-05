@@ -1,0 +1,28 @@
+.InputWrapper {
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    position: relative;
+}
+
+.InputWrapper > p {
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
+.UserInput {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Open-Sans';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Error {
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    font-size: 24px;
+}

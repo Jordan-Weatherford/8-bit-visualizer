@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.AppWrapper {
+    background-color: lightblue;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.Title,
+.SubTitle,
+.Red {
+    font-family: "Bangers", sans-serif;
+}
+
+.Title {
+    font-size: 3.2rem;
+}
+
+.Red {
+    color: red;
+}

@@ -1,0 +1,11 @@
+.Footer {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Footer > p {
+    padding: 40px;
+    background-color: rgb(53, 52, 52);
+    color:rgb(206, 206, 206);
+}
